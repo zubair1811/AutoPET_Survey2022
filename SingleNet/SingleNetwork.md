@@ -5,8 +5,7 @@
 |moreau2021automatic|Breast |2022|3D U-Net|PyTorch|SGD|250|1000|Multi-class dice + CE|GTX 1080Ti|N|Y|N|5-Fold|Small Dataset of 60 patients|
 |xu2018automated|Multiple myeloma |2018|3D V-Net|Theano|Adam|--|--|CE|GTX |--|N|Y|3-Fold|the current study is restricted by small number of patient data.|
 |iantsen2020squeeze|H&N |2021|U-Net|--|Adam|2|800|Soft Dice Loss, Focal Los|GTX 1080Ti (x2)|--|Y|N|LOCO|---|
-|xie2020head|H&N |2021|3D U-Net|PyTorch|SGD|2|250|Weighted CE + Dice|RTX 2080Ti|Y|Y|N|--|we will investigate the impact of different data partitions on
-the model performance, such as leave-one-center-out as test data. Large inference time than nnUNet.|
+|xie2020head|H&N |2021|3D U-Net|PyTorch|SGD|2|250|Weighted CE + Dice|RTX 2080Ti|Y|Y|N|--|we will investigate the impact of different data partitions on the model performance such as leave-one-center-out as test data, Large inference time than nnUNet|
 |kot2021u|Brain |2021|U-Net|TensorFlow|Adam|32|50|BCE|Telsa V100|Y|--|--|5-Fold|Less data of 20 patients, Early fussion |
 |zhao2018tumor|NSCLC |2019|3D FCN|TensorFlow|Adam|--|350|Weighted CE|GTX 1080Ti|Y|--|N|Random|Image cropping to ROI, Donain shift challenge, Weight parameters adjust manually |
 |groendahl2021comparison|H&N |2021|CNN|TensorFlow|Adam|--|200|Evidence Loss|GTX 1080Ti|Y|--|N|5-Fold|---|
